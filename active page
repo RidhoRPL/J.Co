@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>DONAT</title>
+</head>
+<body class="">
+  <header class="sticky top-0">
+    <div class="container-xl">
+      <nav class=" grid grid-cols-2 space-x-10 bg-white">
+          <div class="pl-4 lg:flex items-center">
+            <a class=" text-black font-bold text-2xl lg:text-4xl" href="">DONUT</a>
+          </div>
+        <div class="p-5 font-medium flex space-x-10 justify-end">  
+          <a class="hover:bg-pink-400 hover:text-white" href="">Home</a> 
+          <a class="hover:text-white" href="">About</a>
+          <a class="hover:text-white" href="">Menu</a>
+          <a class="hover:text-white" href="">Gallary</a>
+          <a class="hover:text-white" href="">Contact</a>
+        </div>
+      </nav>
+        <hr class="border-b border-pink-400 opacity-25 my-0 py-0" />
+    </div>
+  </header>
+  <!-- Pembatas -->
+  <div class="w-full">
+    <img src="<?= ('slider2.jpg'); ?>" alt="" class="w-full">
+    </img>
+  </div>     
+  <!-- Pembatas -->
+  <section class="bg-white border-b py-8">
+    <div class="container px-10 mx-auto flex flex-wrap flex-col md:flex-row">
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+        <img src="donut1.png">
+        <h3 class="w-full my-2 text-5xl font-bold leading-tight text-left text-green-600 bg-pink-400">ABOUT US</h3>
+          <p class="leading-normal text-2xl mb-8">
+           We offer the best and finest types of donuts, as we have chefs at the highest level and
+           extensive experience, and we have a good reputation among our customers because
+           we are always interested in providing the best
+          </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
